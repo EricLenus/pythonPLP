@@ -1,0 +1,11 @@
+my_list = ()
+my_list = ([10, 20, 30, 40])
+my_list[2] = (15)
+my_list.extend([50, 60, 70])
+my_list.pop(6)
+sorted_list = sorted(my_list)
+index_list = my_list.index(30)
+
+print(my_list)
+print(sorted_list)
+print(index_list)
